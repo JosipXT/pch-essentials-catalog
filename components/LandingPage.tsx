@@ -2,8 +2,10 @@ import React from 'react';
 import { Instagram, Facebook } from 'lucide-react';
 
 import ex5Image from '../assets/EX5 main.png';
+import ex5HoverImage from '../assets/EX5 main 2.png';
 import ex5Video from '../assets/EX5 Video Main k.mp4';
 import geomeImage from '../assets/Geome main.png';
+import geomeHoverImage from '../assets/Geome main 2.png';
 import geomeVideo from '../assets/Geome main video.mp4';
 import comingSoonImage from '../assets/car_proximamente.jpeg';
 
@@ -17,6 +19,7 @@ interface VehicleCard {
     name: string;
     subtitle: string;
     imageUrl: string;
+    hoverImageUrl?: string;
     videoUrl?: string;
     available: boolean;
 }
@@ -28,6 +31,7 @@ const VEHICLES: VehicleCard[] = [
         name: "GEELY EX5",
         subtitle: "CATÁLOGO",
         imageUrl: ex5Image,
+        hoverImageUrl: ex5HoverImage,
         videoUrl: ex5Video,
         available: true,
     },
@@ -37,6 +41,7 @@ const VEHICLES: VehicleCard[] = [
         name: "GEELY GEOME",
         subtitle: "NUEVO",
         imageUrl: geomeImage,
+        hoverImageUrl: geomeHoverImage,
         videoUrl: geomeVideo,
         available: true,
     },
@@ -118,13 +123,20 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectVehicle }) => {
 
                                 {/* Content layer */}
                                 <div className="absolute inset-0 z-10 pointer-events-none">
-                                    {(vehicle.imageUrl || vehicle.videoUrl) ? (
+                                    {(vehicle.imageUrl || vehicle.videoUrl || vehicle.hoverImageUrl) ? (
                                         <>
                                             {vehicle.imageUrl && (
                                                 <img
                                                     src={vehicle.imageUrl}
                                                     alt={vehicle.name}
-                                                    className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110 ${vehicle.videoUrl ? 'group-hover:opacity-0' : ''}`}
+                                                    className={`absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110 ${(vehicle.videoUrl || vehicle.hoverImageUrl) ? 'group-hover:opacity-0' : ''}`}
+                                                />
+                                            )}
+                                            {vehicle.hoverImageUrl && (
+                                                <img
+                                                    src={vehicle.hoverImageUrl}
+                                                    alt={`${vehicle.name} Hover`}
+                                                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110 opacity-0 group-hover:opacity-100 ${vehicle.videoUrl ? 'md:hidden' : ''}`}
                                                 />
                                             )}
                                             {vehicle.videoUrl && (
@@ -133,7 +145,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSelectVehicle }) => {
                                                     loop
                                                     muted
                                                     playsInline
-                                                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110 opacity-0 group-hover:opacity-100"
+                                                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110 opacity-0 group-hover:opacity-100 ${vehicle.hoverImageUrl ? 'hidden md:block' : ''}`}
                                                 />
                                             )}
                                         </>
