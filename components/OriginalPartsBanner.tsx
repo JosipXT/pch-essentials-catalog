@@ -42,7 +42,7 @@ const OriginalPartsBanner: React.FC<OriginalPartsBannerProps> = ({
               ¿Buscas un repuesto <span className="text-brand-400">original</span> específico?
             </h2>
             <p className="text-brand-100/90 text-lg max-w-xl leading-relaxed drop-shadow-md">
-              Si no encuentras la pieza exacta que necesitas en nuestro catálogo, podemos cotizarla e importarla directamente para ti. Repuestos originales y accesorios adecuados perfectamente a tu vehiculo
+              Si no encuentras la pieza exacta que necesitas en nuestro catálogo, podemos cotizarla e importarla directamente para ti. Repuestos originales y accesorios adecuados perfectamente a tu vehiculo.
             </p>
           </div>
 
