@@ -60,21 +60,21 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails }) => 
           {product.category}
         </div>
 
-        {/* Quick View Button Overlay */}
-        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-20">
-          <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium text-sm flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 shadow-lg">
-            <Eye size={16} /> Ver Detalles
-          </button>
-        </div>
-
         {/* Coming Soon Banner */}
         {product.isComingSoon && (
-          <div className="absolute inset-0 z-30 flex items-center justify-center bg-black/20 backdrop-blur-[2px] pointer-events-none">
+          <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/20 backdrop-blur-[2px] pointer-events-none">
             <div className="bg-black/80 text-white w-full py-3 transform -rotate-12 text-center text-xl font-black tracking-[0.2em] shadow-2xl border-y-2 border-white/20 uppercase">
               Próximamente
             </div>
           </div>
         )}
+
+        {/* Quick View Button Overlay */}
+        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-30">
+          <button className="bg-white text-gray-900 px-4 py-2 rounded-full font-medium text-sm flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 shadow-lg pointer-events-auto">
+            <Eye size={16} /> Ver Detalles
+          </button>
+        </div>
       </div>
 
       {/* Content */}

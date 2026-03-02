@@ -90,10 +90,10 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
       <div className="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
         <div className="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-4xl">
 
-          <div className="absolute top-4 right-4 z-10">
+          <div className="absolute top-4 right-4 z-50">
             <button
               onClick={onClose}
-              className="rounded-full bg-white/80 p-2 text-gray-400 hover:text-gray-500 focus:outline-none transition-colors"
+              className="rounded-full bg-white/90 p-2 text-gray-600 hover:text-black hover:bg-white shadow-sm focus:outline-none transition-all"
             >
               <X size={24} />
             </button>
