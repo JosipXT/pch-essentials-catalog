@@ -307,6 +307,7 @@ const App: React.FC = () => {
       </footer>
 
       <ProductDetails
+        key={selectedProduct?.id || 'modal'}
         product={selectedProduct}
         isOpen={isDetailsOpen}
         onClose={() => setIsDetailsOpen(false)}

@@ -32,9 +32,9 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
 
   if (!isOpen || !product) return null;
 
-  const selectedColor = product.colors[selectedColorIndex];
+  const selectedColor = product.colors[selectedColorIndex] || product.colors[0];
   // Determine price based on selected variant
-  const displayPrice = selectedColor.price || product.price;
+  const displayPrice = selectedColor?.price || product.price;
 
   // Combine main images and extra images for navigation purposes
   const allImages = [...product.images, ...(product.extraImages || [])];
