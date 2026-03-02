@@ -113,12 +113,12 @@ export const MOCK_PRODUCTS: Product[] = [
     price: 15000,
     description: "Protector de alta calidad para la consola central del Geely EX5. Diseñado para proteger la superficie original contra rayones, huellas y desgaste diario. Su material suave al tacto y ajuste preciso mantienen la estética minimalista del interior mientras brindan una capa adicional de durabilidad.",
     colors: [
-      { name: "Azul", hex: "#1e40af", available: true, imageUrl: "https://i.ibb.co/23qJVp9z/protector-consola-azul.jpg" },
-      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "https://i.ibb.co/s95GRKF9/protector-consola-blanco.jpg" }
+      { name: "Azul", hex: "#1e40af", available: true, imageUrl: "https://i.ibb.co/sdXc2Jv6/protector-consola-azul-1-1.jpg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "https://i.ibb.co/LhBCPQCv/protector-consola-blanco-1-1.jpg" }
     ],
     images: [
-      "https://i.ibb.co/23qJVp9z/protector-consola-azul.jpg",
-      "https://i.ibb.co/s95GRKF9/protector-consola-blanco.jpg"
+      "https://i.ibb.co/sdXc2Jv6/protector-consola-azul-1-1.jpg",
+      "https://i.ibb.co/LhBCPQCv/protector-consola-blanco-1-1.jpg"
     ],
     features: ["Ajuste milimétrico a la consola EX5", "Material antideslizante y suave", "Fácil de limpiar y lavar", "Instalación instantánea sin adhesivos"]
   },
