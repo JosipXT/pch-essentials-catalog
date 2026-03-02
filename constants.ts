@@ -228,12 +228,12 @@ export const MOCK_PRODUCTS: Product[] = [
     price: 20000,
     description: "Juego de escobillas limpiaparabrisas con diseño 1:1 idéntico al original del Geely EX5. Una excelente alternativa que ofrece un ajuste perfecto a los brazos del limpiaparabrisas y un rendimiento de limpieza eficiente y aerodinámico.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/qM25cRBq/wiper-1-1-a.jpg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
     ],
     images: [
-      "https://i.ibb.co/qM25cRBq/wiper-1-1-a.jpg",
-      "https://i.ibb.co/jvhDq6fL/wiper-1-1-b.jpg",
-      "https://i.ibb.co/PGQP94rb/wiper-1-1-c.jpg"
+      "https://i.ibb.co/wNbky789/esco11a.jpg",
+      "https://i.ibb.co/fV0mT93M/esco11b.jpg",
+      "https://i.ibb.co/Pz45q2zh/esco11c.jpg"
     ],
     features: ["Diseño réplica 1:1 (OEM Style)", "Ajuste específico EX5", "Goma de alta calidad", "Instalación sencilla"]
   },
@@ -396,10 +396,10 @@ export const MOCK_PRODUCTS: Product[] = [
       "https://i.ibb.co/KcL6Hnb1/cubre-maletero-carbon-fiber-leather.jpg"
     ],
     extraImages: [
-      "https://i.ibb.co/9Hx4XFss/cubre1.jpg",
-      "https://i.ibb.co/CKKGqpnK/cubre2.jpg",
-      "https://i.ibb.co/PsQBxMfz/cubre3.jpg",
-      "https://i.ibb.co/SDqd1Jjx/cubre4.jpg"
+      "https://i.ibb.co/B28dcXHR/maletero1.jpg",
+      "https://i.ibb.co/6R0dTkNm/maletero2.jpg",
+      "https://i.ibb.co/gbLLrHv4/maletero3.jpg",
+      "https://i.ibb.co/zTdsrhCh/maletero4.jpg"
     ],
     features: ["Disponible en 3 materiales", "Instalación Plug & Play", "Retráctil y desmontable", "Protección visual y solar"]
   },

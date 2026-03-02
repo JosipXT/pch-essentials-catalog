@@ -674,14 +674,16 @@ export const GEOME_PRODUCTS: Product[] = [
     "description": "Accesorio premium dise\u00f1ado exclusivamente para Geely GEOME. Escobillas Limpiaparabrisas (1:1).",
     "colors": [
       {
-        "name": "Est\u00e1ndar",
+        "name": "Estándar",
         "hex": "#000000",
         "available": true,
-        "imageUrl": "/Geome/Wipers/Wipers 1.1.jpeg"
+        "imageUrl": "https://i.ibb.co/wNbky789/esco11a.jpg"
       }
     ],
     "images": [
-      "/Geome/Wipers/Wipers 1.1.jpeg"
+      "https://i.ibb.co/wNbky789/esco11a.jpg",
+      "https://i.ibb.co/fV0mT93M/esco11b.jpg",
+      "https://i.ibb.co/Pz45q2zh/esco11c.jpg"
     ],
     "features": [
       "Ajuste espec\u00edfico para Geely GEOME",
