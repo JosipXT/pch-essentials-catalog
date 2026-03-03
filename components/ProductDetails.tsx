@@ -22,12 +22,13 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
     }
   }, [product]);
 
-  // Update main image when color selection changes, if that color has a specific image
-  useEffect(() => {
-    if (product && product.colors[selectedColorIndex]?.imageUrl) {
-      setCurrentImage(product.colors[selectedColorIndex].imageUrl!);
+  // Helper to explicitly update color AND image together (used by color circle clicks)
+  const handleColorCircleClick = (idx: number) => {
+    setSelectedColorIndex(idx);
+    if (product && product.colors[idx]?.imageUrl) {
+      setCurrentImage(product.colors[idx].imageUrl!);
     }
-  }, [selectedColorIndex, product]);
+  };
 
 
   if (!isOpen || !product) return null;
@@ -241,7 +242,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
                     {product.colors.map((color, idx) => (
                       <button
                         key={color.name}
-                        onClick={() => setSelectedColorIndex(idx)}
+                        onClick={() => handleColorCircleClick(idx)}
                         className={`relative h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 transition-transform active:scale-95 border border-black/20 ${!color.available || product.isComingSoon ? 'opacity-40 cursor-not-allowed' : 'cursor-pointer hover:scale-110'
                           } ${selectedColorIndex === idx ? 'ring-2 ring-brand-500 ring-offset-2 scale-110' : ''}`}
                         style={{ backgroundColor: color.hex }}
