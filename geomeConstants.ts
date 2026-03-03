@@ -206,7 +206,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Funda para proteger el recubrimiento original del dashboard de tu vehículo del sol penetrante y de los rallones accidentales, diseñado a la medida del modelo GEOME.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Protector dash/Protector dash1.jpeg" }
+      { name: "Negro / Oscuro", hex: "#000000", available: true, imageUrl: "/Geome/Protector dash/Protector dash1.jpeg" }
     ],
     images: [
       "/Geome/Protector dash/Protector dash1.jpeg",
@@ -228,7 +228,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Set de faldones antibarro para Geely GEOME. Mantienen la carrocería más limpia de salpicaduras generadas por las llantas.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Mudguards/Mudguards.jpeg" }
+      { name: "Negro Goma", hex: "#000000", available: true, imageUrl: "/Geome/Mudguards/Mudguards.jpeg" }
     ],
     images: [
       "/Geome/Mudguards/Mudguards.jpeg",
@@ -252,7 +252,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Juego frontal de escobillas limpiaparabrisas de alta calidad con dimensiones de enganche 1:1 idénticas a las originales del Geely GEOME para acoplar perfectamente en los brazos.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
+      { name: "Negro OEM", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
     ],
     images: [
       "https://i.ibb.co/wNbky789/esco11a.jpg",
@@ -298,20 +298,20 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Combo insuperable para mantener el orden de objetos pequeños en el frente de tu Geely GEOME.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png" },
-      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg" },
-      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg" },
-      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png",
-      "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg",
-      "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg",
-      "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg",
       "/Geome/Organizadores/guantera/Organizador guantera negro.jpeg",
       "/Geome/Organizadores/guantera/Organizador guantera blanco.jpeg",
       "/Geome/Organizadores/guantera/Organizador guantera crema.jpeg",
-      "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg"
+      "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png",
+      "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -410,7 +410,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Adaptador de carga portátil (Vehicle to Load) que convierte la entrada de carga de tu coche EV en un toma corriente estándar de gran potencia para cualquier aparato al aire libre.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/V2L/V2L.jpg" }
+      { name: "Negro Carga", hex: "#000000", available: true, imageUrl: "/Geome/V2L/V2L.jpg" }
     ],
     images: [
       "/Geome/V2L/V2L.jpg"
@@ -472,7 +472,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Excelente adaptador V2L para extraer la super energía de tu coche EV a dispositivos AC 110V. Incluye un cable extensor de gran longitud y una regleta de enchufes múltiples.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/V2L/v2l 3m.jpg" }
+      { name: "Negro Carga", hex: "#000000", available: true, imageUrl: "/Geome/V2L/v2l 3m.jpg" }
     ],
     images: [
       "/Geome/V2L/v2l 3m.jpg"
@@ -513,7 +513,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Iluminación exterior diurna y nocturna para embellecer, cruzar de un lado a otro y conformar la increíble estética luminosa de un sedán premium, destacando la identidad de Geely en la parrilla frontal.",
     colors: [
-      { name: "Luz de Conducción Diurna (Blanco Ojo Halcón)", hex: "#ffffff", available: true, imageUrl: "/Geome/DLR/Drl 1.jpeg" }
+      { name: "Luz Blanca Halcón", hex: "#ffffff", available: true, imageUrl: "/Geome/DLR/Drl 1.jpeg" }
     ],
     images: [
       "/Geome/DLR/Drl 1.jpeg",
@@ -564,7 +564,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Mejora aerodinámica inmensamente llamativa que alarga visualmente el coche y realza deportivamente por completo el contorno trasero del Geely GEOME.",
     colors: [
-      { name: "Color a elección", hex: "#000000", available: true, imageUrl: "/Geome/Spoiler/Spoiler tipos.jpeg" }
+      { name: "Negro Deportivo", hex: "#000000", available: true, imageUrl: "/Geome/Spoiler/Spoiler tipos.jpeg" }
     ],
     images: [
       "/Geome/Spoiler/Spoiler tipos.jpeg",
@@ -588,8 +588,8 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Juego masivo y completo de alfombras moldeadas en tecnología 3D por computadora milímetro a milímetro. Abarcando conductores, plazas traseras e incluso la gran área de carga de maletero. Todo está blindado.",
     colors: [
-      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set negro.jpeg" },
-      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set blanco.jpeg" }
+      { name: "Negro TPE", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set negro.jpeg" },
+      { name: "Blanco TPE", hex: "#ffffff", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set blanco.jpeg" }
     ],
     images: [
       "/Geome/Alfombras/Alfombra full set negro.jpeg",
@@ -612,9 +612,10 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: true,
     description: "Cámara DVR montablemente perfecta sobre el recubrimiento estructural del retrovisor tipo OEM y monitoreo activo de viaje. Excelente y crucial testigo para cualquier percance en ruta.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/dashkam geome.jpeg" }
+      { name: "Gris OEM", hex: "#4b5563", available: true, imageUrl: "/Geome/dashkam-geome-sqquare.jpg" }
     ],
     images: [
+      "/Geome/dashkam-geome-sqquare.jpg",
       "/Geome/dashkam geome.jpeg"
     ],
     features: [
@@ -663,7 +664,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "La capa blindada invisible y autoreparable del futuro PPF (Paint Protection Film) para la carrocería. Evita piquetes de piedras y rayazos permanentes en piezas individuales o completas de tu vehículo. Es un proyecto totalmente customizable, escríbenos para analizar tu necesidad.",
     colors: [
-      { name: "Lámina Invisible de Alta Curabilidad", hex: "#e0e0e0", available: true, imageUrl: "/Geome/PPF/PPF full set.jpeg" }
+      { name: "Lámina Invisible Termoplástica", hex: "#e0e0e0", available: true, imageUrl: "/Geome/PPF/PPF full set.jpeg" }
     ],
     images: [
       "/Geome/PPF/PPF full set.jpeg",
@@ -695,7 +696,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Tinte inteligente de polarizado para todo el complejo y enorme ventanal e incluso el increíble techo panorámico del vehícula. Reducción inmensa de los rayos UV y del índice calorífico interno.",
     colors: [
-      { name: "Transparencia al Gusto", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Lámina solar/Lámina solar2.jpeg" }
+      { name: "Transparencia Selectiva", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Lámina solar/Lámina solar2.jpeg" }
     ],
     images: [
       "/Geome/Lámina solar/Lámina solar2.jpeg",
@@ -715,7 +716,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Nivelar, expandir y acomodar el baúl de carga nunca fue una mejor idea y una mejora de calidad de vida. Disitntas particiones modulares subterráneas bajo el suelo de tapicería, en donde puedes guardar desde cargadores hasta líquidos o calzados variados. Requiere Cotización debido a la variedad.",
     colors: [
-      { name: "Gama Organizativa", hex: "#000000", available: true, imageUrl: "/Geome/Organizador maletero/Organizador maletero1.jpeg" }
+      { name: "Compartimentos Negros Ocultos", hex: "#000000", available: true, imageUrl: "/Geome/Organizador maletero/Organizador maletero1.jpeg" }
     ],
     images: [
       "/Geome/Organizador maletero/Organizador maletero1.jpeg",
@@ -738,7 +739,7 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Recubre con un impacto colosal de deportividad pura el frente, retrovisores, parrillas, estribos e interiores con la simulación ultrarrealista ABS de Fibra de Carbono en formato tridimensional. Cotizamos lo que tengas en mente envolver en fibra de carbono y nosotros te lo conseguimos.",
     colors: [
-      { name: "Patrón Tradicional Carbon Fiber", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Modificacion por partes/Modificaciones partes.jpeg" }
+      { name: "Patrón Carbon Fiber", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Modificacion por partes/Modificaciones partes.jpeg" }
     ],
     images: [
       "/Geome/Modificacion por partes/Modificaciones partes.jpeg"
