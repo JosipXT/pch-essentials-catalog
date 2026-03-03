@@ -252,12 +252,9 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Juego frontal de escobillas limpiaparabrisas de alta calidad con dimensiones de enganche 1:1 idénticas a las originales del Geely GEOME para acoplar perfectamente en los brazos.",
     colors: [
-      { name: "Negro OEM", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
+      { name: "Negro OEM", hex: "#000000", available: true, imageUrl: "/Geome/Wipers/Wipers 1.1.jpeg" }
     ],
     images: [
-      "https://i.ibb.co/wNbky789/esco11a.jpg",
-      "https://i.ibb.co/fV0mT93M/esco11b.jpg",
-      "https://i.ibb.co/Pz45q2zh/esco11c.jpg",
       "/Geome/Wipers/Wipers 1.1.jpeg"
     ],
     features: [
