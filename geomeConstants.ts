@@ -515,8 +515,8 @@ export const GEOME_PRODUCTS: Product[] = [
     images: [
       "/Geome/DLR/Drl 1.jpeg",
       "/Geome/DLR/Drl 2.jpeg",
-      "/Geome/DLR/Drl 3.jpeg",
-      "/Geome/DLR/Drl 4.jpeg"
+      "/Geome/DLR/Drl-3-hd.jpeg",
+      "/Geome/DLR/Drl-4-hd.jpeg"
     ],
     features: [
       "Tira extra lumínica espectacular",
