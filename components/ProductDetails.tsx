@@ -6,9 +6,10 @@ interface ProductDetailsProps {
   product: Product | null;
   isOpen: boolean;
   onClose: () => void;
+  vehicleName?: string;
 }
 
-const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClose }) => {
+const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClose, vehicleName = 'EX5' }) => {
   const [selectedColorIndex, setSelectedColorIndex] = useState(0);
   const [currentImage, setCurrentImage] = useState('');
   const [quantity, setQuantity] = useState(1);
@@ -88,7 +89,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
     if (product.isSpecialShipping) {
       message = `Hola, estoy interesado en cotizar el siguiente producto con envío especial:\n\n*Producto:* ${product.name}\n*Variante:* ${selectedColor.name}\n*Cantidad:* ${quantity}\n\nPor favor indíquenme el precio final y opciones de envío.`;
     } else {
-      message = `Hola, estoy interesado en comprar el siguiente accesorio para EX5:\n\n*Producto:* ${product.name}\n*Variante:* ${selectedColor.name}\n*Cantidad:* ${quantity}\n*Precio Unitario:* ₡${displayPrice.toLocaleString()}\n\nQuedo atento a la información de pago y envío.`;
+      message = `Hola, estoy interesado en comprar el siguiente accesorio para ${vehicleName}:\n\n*Producto:* ${product.name}\n*Variante:* ${selectedColor.name}\n*Cantidad:* ${quantity}\n*Precio Unitario:* ₡${displayPrice.toLocaleString()}\n\nQuedo atento a la información de pago y envío.`;
     }
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

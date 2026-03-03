@@ -239,6 +239,7 @@ const App: React.FC = () => {
                 key={product.id}
                 product={product}
                 onOpenDetails={handleOpenDetails}
+                vehicleName={currentHero.title}
               />
             ))}
           </div>
@@ -311,6 +312,7 @@ const App: React.FC = () => {
         product={selectedProduct}
         isOpen={isDetailsOpen}
         onClose={() => setIsDetailsOpen(false)}
+        vehicleName={currentHero.title}
       />
 
     </div>

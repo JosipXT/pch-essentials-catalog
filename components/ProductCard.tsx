@@ -5,9 +5,10 @@ import { Check, Eye, Truck, Info } from 'lucide-react';
 interface ProductCardProps {
   product: Product;
   onOpenDetails: (product: Product) => void;
+  vehicleName?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails, vehicleName = 'EX5' }) => {
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
 
   // Use the color specific image if available, otherwise fallback to the first gallery image
@@ -28,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails }) => 
       priceText = "Cotizar";
     }
 
-    const message = `Hola, estoy interesado en ${actionText} el accesorio para EX5: ${product.name} (Variante: ${selectedColor.name}) - Precio: ${priceText}`;
+    const message = `Hola, estoy interesado en ${actionText} el accesorio para ${vehicleName}: ${product.name} (Variante: ${selectedColor.name}) - Precio: ${priceText}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
