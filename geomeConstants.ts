@@ -10,8 +10,8 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Cubre objetos retráctil diseñado a medida para el Geely GEOME. Protege tu equipaje de la vista y de los rayos UV. Disponible en diferentes materiales premium.",
     colors: [
-      { name: "Fibra", hex: "#222222", available: true, imageUrl: "/Geome/Cubre Maletero /Malet_CarbonLeather.jpg", price: 57500 },
-      { name: "Canvas", hex: "#1a1a1a", available: true, imageUrl: "/Geome/Cubre Maletero /Malet_BlackCanvas.jpg", price: 60000 },
+      { name: "Fibra de Carbono", hex: "#222222", available: true, imageUrl: "/Geome/Cubre Maletero /Malet_CarbonLeather.jpg", price: 57500 },
+      { name: "Lona (Canvas)", hex: "#2a2a2a", available: true, imageUrl: "/Geome/Cubre Maletero /Malet_BlackCanvas.jpg", price: 60000 },
       { name: "Cuero", hex: "#0d0d0d", available: true, imageUrl: "/Geome/Cubre Maletero /Malet_BlackLeather.jpg", price: 62500 }
     ],
     images: [
@@ -39,17 +39,20 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Bandejas organizadoras para el Geely GEOME. Maximiza el espacio y mantén tus pertenencias ordenadas.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador central blanco.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central rosado.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador central crema.jpeg",
-      "/Geome/Organizadores/Organizador central blanco.jpeg",
-      "/Geome/Organizadores/Organizador central negro.jpeg",
-      "/Geome/Organizadores/Organizador central rosado.jpeg",
-      "/Geome/Organizadores/Organizador consola crema.jpeg",
-      "/Geome/Organizadores/Organizador consola negro.jpeg",
-      "/Geome/Organizadores/Organizador consola blanco.jpeg",
-      "/Geome/Organizadores/Organizador consola rosado.jpeg"
+      "/Geome/Organizadores/central/Organizador central negro.jpeg",
+      "/Geome/Organizadores/central/Organizador central blanco.jpeg",
+      "/Geome/Organizadores/central/Organizador central crema.jpeg",
+      "/Geome/Organizadores/central/Organizador central rosado.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola negro.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola blanco.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola crema.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola rosado.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -66,13 +69,16 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Bandeja organizadora central para el Geely GEOME. Maximiza el espacio y mantén tus pertenencias ordenadas.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador central blanco.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/central/Organizador central rosado.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador central crema.jpeg",
-      "/Geome/Organizadores/Organizador central blanco.jpeg",
-      "/Geome/Organizadores/Organizador central negro.jpeg",
-      "/Geome/Organizadores/Organizador central rosado.jpeg"
+      "/Geome/Organizadores/central/Organizador central negro.jpeg",
+      "/Geome/Organizadores/central/Organizador central blanco.jpeg",
+      "/Geome/Organizadores/central/Organizador central crema.jpeg",
+      "/Geome/Organizadores/central/Organizador central rosado.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -89,13 +95,16 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Bandeja organizadora para la consola del Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador consola negro.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/consola/Organizador consola negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/consola/Organizador consola blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/consola/Organizador consola crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/consola/Organizador consola rosado.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador consola crema.jpeg",
-      "/Geome/Organizadores/Organizador consola negro.jpeg",
-      "/Geome/Organizadores/Organizador consola blanco.jpeg",
-      "/Geome/Organizadores/Organizador consola rosado.jpeg"
+      "/Geome/Organizadores/consola/Organizador consola negro.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola blanco.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola crema.jpeg",
+      "/Geome/Organizadores/consola/Organizador consola rosado.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -112,12 +121,14 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Bandeja organizadora para la consola del Geely GEOME con soporte especial para bebidas.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador portavasos negro.png" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/portavasos/Organizador portavasos negro.png" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/portavasos/Organizador portavasos blanco.png" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/portavasos/Organizador portavasos rosado.png" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador portavasos negro.png",
-      "/Geome/Organizadores/Organizador portavasos blanco.png",
-      "/Geome/Organizadores/Organizador portavasos rosado.png"
+      "/Geome/Organizadores/portavasos/Organizador portavasos negro.png",
+      "/Geome/Organizadores/portavasos/Organizador portavasos blanco.png",
+      "/Geome/Organizadores/portavasos/Organizador portavasos rosado.png"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -134,16 +145,22 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Cobertor de volante de cuero premium diseñado exclusivamente para Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro.jpeg" },
+      { name: "Negro - Blanco", hex: "#f0f0f0", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - Blanco.jpeg" },
+      { name: "Negro - Cafe oscuro", hex: "#4b3621", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - Cafe oscuro.jpeg" },
+      { name: "Negro - Cafe", hex: "#8b4513", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - Cafe.jpeg" },
+      { name: "Negro - Gris", hex: "#808080", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - Gris.jpeg" },
+      { name: "Negro - Rojo", hex: "#ff0000", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - Rojo.jpeg" },
+      { name: "Negro - Azul/Rojo", hex: "#0000ff", available: true, imageUrl: "/Geome/Volantes/Cuero/Negro - azul-rojo.jpeg" }
     ],
     images: [
+      "/Geome/Volantes/Cuero/Negro.jpeg",
       "/Geome/Volantes/Cuero/Negro - Blanco.jpeg",
       "/Geome/Volantes/Cuero/Negro - Cafe oscuro.jpeg",
       "/Geome/Volantes/Cuero/Negro - Cafe.jpeg",
       "/Geome/Volantes/Cuero/Negro - Gris.jpeg",
       "/Geome/Volantes/Cuero/Negro - Rojo.jpeg",
-      "/Geome/Volantes/Cuero/Negro - azul-rojo.jpeg",
-      "/Geome/Volantes/Cuero/Negro.jpeg"
+      "/Geome/Volantes/Cuero/Negro - azul-rojo.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -160,9 +177,19 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Cobertor de volante de gamuza premium diseñado exclusivamente para Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro.jpeg" },
+      { name: "Cafe", hex: "#8b4513", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - Cafe.jpeg" },
+      { name: "Azul", hex: "#0000ff", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - azul.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - blanco.jpeg" },
+      { name: "Celeste", hex: "#87ceeb", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - celeste.jpeg" },
+      { name: "Naranja", hex: "#ffa500", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - naranja.jpeg" },
+      { name: "Rojo", hex: "#ff0000", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - rojo.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - rosado.jpeg" },
+      { name: "Verde", hex: "#008000", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - verde.jpeg" },
+      { name: "Violeta", hex: "#ee82ee", available: true, imageUrl: "/Geome/Volantes/Gamuza/Negro - violeta.jpeg" }
     ],
     images: [
+      "/Geome/Volantes/Gamuza/Negro.jpeg",
       "/Geome/Volantes/Gamuza/Negro - Cafe.jpeg",
       "/Geome/Volantes/Gamuza/Negro - azul.jpeg",
       "/Geome/Volantes/Gamuza/Negro - blanco.jpeg",
@@ -172,8 +199,7 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/Volantes/Gamuza/Negro - rojo.jpeg",
       "/Geome/Volantes/Gamuza/Negro - rosado.jpeg",
       "/Geome/Volantes/Gamuza/Negro - verde.jpeg",
-      "/Geome/Volantes/Gamuza/Negro - violeta.jpeg",
-      "/Geome/Volantes/Gamuza/Negro.jpeg"
+      "/Geome/Volantes/Gamuza/Negro - violeta.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -190,16 +216,20 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Opciones excelentes para mantener el orden en tu Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador pantalla Negro.png" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador pantalla Negro.png",
-      "/Geome/Organizadores/Organizador pantalla crema.jpeg",
-      "/Geome/Organizadores/Organizador pantalla rosado.jpeg",
-      "/Geome/Organizadores/Organizador pantalla blanco.jpeg",
-      "/Geome/Organizadores/Organizador portavasos negro.png",
-      "/Geome/Organizadores/Organizador portavasos blanco.png",
-      "/Geome/Organizadores/Organizador portavasos rosado.png"
+      "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png",
+      "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera negro.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera blanco.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera crema.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -216,13 +246,16 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Organizador de pantalla para Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador pantalla Negro.png" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg" },
+      { name: "Rosado", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador pantalla Negro.png",
-      "/Geome/Organizadores/Organizador pantalla crema.jpeg",
-      "/Geome/Organizadores/Organizador pantalla rosado.jpeg",
-      "/Geome/Organizadores/Organizador pantalla blanco.jpeg"
+      "/Geome/Organizadores/pantalla/Organizador pantalla Negro.png",
+      "/Geome/Organizadores/pantalla/Organizador pantalla blanco.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla crema.jpeg",
+      "/Geome/Organizadores/pantalla/Organizador pantalla rosado.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -237,14 +270,18 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 12500,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Organizador de guantera con portavasos.",
+    description: "Organizador interno para la guantera, aumentando el espacio y capacidad de organización.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/Organizador portavasos negro.png" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera blanco.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera crema.jpeg" },
+      { name: "Rosa", hex: "#ffb6c1", available: true, imageUrl: "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg" }
     ],
     images: [
-      "/Geome/Organizadores/Organizador portavasos negro.png",
-      "/Geome/Organizadores/Organizador portavasos blanco.png",
-      "/Geome/Organizadores/Organizador portavasos rosado.png"
+      "/Geome/Organizadores/guantera/Organizador guantera negro.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera blanco.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera crema.jpeg",
+      "/Geome/Organizadores/guantera/Organizador guantera rosa.jpeg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
@@ -259,11 +296,12 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 0,
     isSpecialShipping: true,
     isComingSoon: false,
-    description: "Protección exterior en material TPU/PPF para secciones específicas del vehículo. (Por Cotización)",
+    description: "Protección exterior en material TPU/PPF transparente para secciones específicas del vehículo. Instalable en espejos, focos, bumper, capo, arco y más. (Por Cotización)",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/PPF/PPF full set.jpeg" }
+      { name: "Transparente", hex: "#e0e0e0", available: true, imageUrl: "/Geome/PPF/PPF full set.jpeg" }
     ],
     images: [
+      "/Geome/PPF/PPF full set.jpeg",
       "/Geome/PPF/PPF  focos.jpeg",
       "/Geome/PPF/PPF arco.jpeg",
       "/Geome/PPF/PPF bumper delantero.jpeg",
@@ -271,7 +309,6 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/PPF/PPF cachete trasero.jpeg",
       "/Geome/PPF/PPF cachetes delanteros.jpeg",
       "/Geome/PPF/PPF capo.jpeg",
-      "/Geome/PPF/PPF full set.jpeg",
       "/Geome/PPF/PPF maletero.jpeg",
       "/Geome/PPF/PPF pilares.jpeg",
       "/Geome/PPF/PPF puerta delantera.jpeg",
@@ -291,16 +328,16 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 15000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Lámina protectora de TPU para las partes comúnmente expuestas de tu Geely GEOME.",
+    description: "Lámina protectora de TPU para las partes comúnmente expuestas en el interior del vehículo.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/TPU general/TPU general.jpg" }
+      { name: "Transparente", hex: "#e0e0e0", available: true, imageUrl: "/Geome/TPU general/TPU general.jpg" }
     ],
     images: [
       "/Geome/TPU general/TPU general.jpg"
     ],
     features: [
       "Ajuste específico para Geely GEOME",
-      "Protección contra rayones"
+      "Protección contra rayones e impactos"
     ]
   },
   {
@@ -310,7 +347,7 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 0,
     isSpecialShipping: true,
     isComingSoon: false,
-    description: "Sistema de almacenamiento y organizador para la cajuela. (Por Cotización)",
+    description: "Sistema de almacenamiento y organizador en diferentes configuraciones para la cajuela. (Por Cotización)",
     colors: [
       { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Organizador maletero/Organizador maletero1.jpeg" }
     ],
@@ -332,11 +369,13 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 0,
     isSpecialShipping: false,
     isComingSoon: true,
-    description: "Cámara DVR para el retrovisor tipo OEM.",
+    description: "Cámara DVR para el retrovisor tipo OEM y monitoreo de colisiones.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "" }
+      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/dashkam geome.jpeg" }
     ],
-    images: [],
+    images: [
+      "/Geome/dashkam geome.jpeg"
+    ],
     features: [
       "Visibilidad 1080p",
       "Diseño oculto",
@@ -350,9 +389,9 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 17000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Funda para proteger el dashboard de tu vehículo del sol y rallones.",
+    description: "Funda para proteger el dashboard de tu vehículo del sol y rallones, a medida.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Protector dash/Protector dash1.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Protector dash/Protector dash1.jpeg" }
     ],
     images: [
       "/Geome/Protector dash/Protector dash1.jpeg",
@@ -372,9 +411,9 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 17000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Protección contra polvo, barro, y piedras en movimiento.",
+    description: "Set de faldones antibarro para Geely GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Mudguards/Mudguards.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Mudguards/Mudguards.jpeg" }
     ],
     images: [
       "/Geome/Mudguards/Mudguards.jpeg",
@@ -396,9 +435,10 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 70000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Juego completo de alfombras incluyendo el recubrimiento de la cajuela.",
+    description: "Juego completo de alfombras a la medida, incluyendo el cobertor del área de carga de maletero.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set negro.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Alfombras/Alfombra full set blanco.jpeg" }
     ],
     images: [
       "/Geome/Alfombras/Alfombra full set negro.jpeg",
@@ -407,7 +447,8 @@ export const GEOME_PRODUCTS: Product[] = [
     features: [
       "Ajuste específico para Geely GEOME",
       "Alta durabilidad",
-      "Fácil de lavar"
+      "Fácil de lavar",
+      "Material TPE"
     ]
   },
   {
@@ -417,9 +458,10 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 55000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Alfombras premium para el área de los pasajeros.",
+    description: "Alfombras a la medida para las dos plazas de los pasajeros, protegiendo totalmente el piso original.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra interior negro.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Alfombras/Alfombra interior negro.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Alfombras/Alfombra interior blanca.jpeg" }
     ],
     images: [
       "/Geome/Alfombras/Alfombra interior negro.jpeg",
@@ -428,7 +470,8 @@ export const GEOME_PRODUCTS: Product[] = [
     features: [
       "Ajuste específico para Geely GEOME",
       "Alta durabilidad",
-      "Fácil de lavar"
+      "Fácil de lavar",
+      "Material TPE Premium"
     ]
   },
   {
@@ -438,9 +481,9 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 55000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Iluminación exterior espectacular para embellecer y destacar el contorno del vehículo.",
+    description: "Iluminación exterior diurna y nocturna para embellecer y destacar el frontal del vehículo con el diseño GEOME.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/DLR/Drl 1.jpeg" }
+      { name: "Blanco DRL", hex: "#ffffff", available: true, imageUrl: "/Geome/DLR/Drl 1.jpeg" }
     ],
     images: [
       "/Geome/DLR/Drl 1.jpeg",
@@ -449,8 +492,9 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/DLR/Drl 4.jpeg"
     ],
     features: [
-      "Súper brillantes",
-      "Instalación plug and play"
+      "Súper brillantes y visibles de día",
+      "Instalación plug and play",
+      "Animación de inicio"
     ]
   },
   {
@@ -460,16 +504,21 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 0,
     isSpecialShipping: false,
     isComingSoon: true,
-    description: "Fundas hermosas de alta tecnología para recubrir los asientos de tu Geely GEOME.",
+    description: "Fundas hermosas de alta tecnología para recubrir los asientos completos de tu Geely GEOME y protegerlos de salpicaduras o desgaste.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos turquesa.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos negro.jpeg" },
+      { name: "Crema", hex: "#f5f5dc", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos crema.jpeg" },
+      { name: "Gris Claro", hex: "#d3d3d3", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos gris claro.jpeg" },
+      { name: "Lila", hex: "#c8a2c8", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos lila.jpeg" },
+      { name: "Negro y Verde", hex: "#008000", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos negro y verde.jpeg" },
+      { name: "Turquesa", hex: "#40e0d0", available: true, imageUrl: "/Geome/Cubre asientos/Cubre asientos turquesa.jpeg" }
     ],
     images: [
+      "/Geome/Cubre asientos/Cubre asientos negro.jpeg",
       "/Geome/Cubre asientos/Cubre asientos crema.jpeg",
       "/Geome/Cubre asientos/Cubre asientos gris claro.jpeg",
       "/Geome/Cubre asientos/Cubre asientos lila.jpeg",
       "/Geome/Cubre asientos/Cubre asientos negro y verde.jpeg",
-      "/Geome/Cubre asientos/Cubre asientos negro.jpeg",
       "/Geome/Cubre asientos/Cubre asientos turquesa.jpeg"
     ],
     features: [
@@ -484,7 +533,7 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 25000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Adaptador 'Vehicle to Load' para extraer energía y utilizarla en electrodomésticos externos.",
+    description: "Adaptador de carga portátil (Vehicle to Load) que convierte la entrada de carga de tu GEOME en un toma corriente para aparatos al aire libre.",
     colors: [
       { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/V2L/V2L.jpg" }
     ],
@@ -492,8 +541,8 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/V2L/V2L.jpg"
     ],
     features: [
-      "Conectividad V2L",
-      "Seguridad garantizada"
+      "Conectividad V2L nativa",
+      "Seguridad y corte automático certificados"
     ]
   },
   {
@@ -503,7 +552,7 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 47500,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Adaptador V2L que incluye una regleta multi-tomacorriente integrada de 3 metros.",
+    description: "Excelente adaptador V2L para alimentar dispositivos AC a través del puerto de carga de tu coche GEOME. Incluye 3 metros de cable y enchufes múltiples.",
     colors: [
       { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/V2L/v2l 3m.jpg" }
     ],
@@ -511,8 +560,8 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/V2L/v2l 3m.jpg"
     ],
     features: [
-      "Cable de 3M",
-      "Múltiples puertos"
+      "Cable de 3M Extensión",
+      "Múltiples puertos incluidos"
     ]
   },
   {
@@ -522,9 +571,9 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 17000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Juego de escobillas limpiaparabrisas con diseño 1:1 idéntico al original del Geely GEOME.",
+    description: "Juego frontal de escobillas limpiaparabrisas con dimensiones (modelo 1:1) idénticas a las originales del Geely GEOME para no perder aerodinámica.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "https://i.ibb.co/wNbky789/esco11a.jpg" }
     ],
     images: [
       "https://i.ibb.co/wNbky789/esco11a.jpg",
@@ -534,7 +583,7 @@ export const GEOME_PRODUCTS: Product[] = [
     ],
     features: [
       "Alineación perfecta (OEM)",
-      "Larga durabilidad"
+      "Alto rendimiento pluvial"
     ]
   },
   {
@@ -544,16 +593,18 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 22500,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Protector esencial para evitar bloqueos por hojas o suciedad en ductos de ventilación frontal.",
+    description: "Placa metálica superior para prevenir la absorción de hojas y hojas de árboles mediante rejillas finas de alta tecnología.",
     colors: [
       { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Cubierta antipolvo/protector_placa.jpg" }
     ],
     images: [
-      "/Geome/Cubierta antipolvo/protector_placa.jpg"
+      "/Geome/Cubierta antipolvo/protector_placa.jpg",
+      "/Geome/Cubierta antipolvo/Cubierta antipolvo1.jpeg",
+      "/Geome/Cubierta antipolvo/Cubierta antipolvo2.jpeg"
     ],
     features: [
-      "Diseño a medida GEOME",
-      "Evita olores en cabina al tiempo"
+      "Diseño a medida GEOME Frontal",
+      "Evita olores en compartimentos por estancamiento"
     ]
   },
   {
@@ -563,18 +614,19 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 28500,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Cajón inferior para los asientos traseros que proporciona un excelente almacenamiento adicional oculto.",
+    description: "Almacenamiento escondido debajo de los asientos traseros para zapatos pequeños, paraguas o similares. Ahorrando muchísimo espacio en cabina.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Caja trasera asientos/Caja negra.jpeg" }
+      { name: "Negro", hex: "#000000", available: true, imageUrl: "/Geome/Caja trasera asientos/Caja negra.jpeg" },
+      { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "/Geome/Caja trasera asientos/Caja blanca .jpeg" }
     ],
     images: [
-      "/Geome/Caja trasera asientos/Caja blanca .jpeg",
+      "/Geome/Caja trasera asientos/Caja negra.jpeg",
       "/Geome/Caja trasera asientos/Caja negra 2.jpeg",
-      "/Geome/Caja trasera asientos/Caja negra.jpeg"
+      "/Geome/Caja trasera asientos/Caja blanca .jpeg"
     ],
     features: [
-      "Calce excelente",
-      "Mantiene el coche limpio"
+      "Calce excelente (Left or Right)",
+      "Material ABS rígido de uso pesado"
     ]
   },
   {
@@ -584,7 +636,7 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 65000,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Spoiler trasero premium pensado y diseñado para encajar perfecto en el contorno del GEOME.",
+    description: "Mejora masiva aerodinámica e imponente que cambia completamente el estilo visual trasero del Geely GEOME.",
     colors: [
       { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Spoiler/Spoiler tipos.jpeg" }
     ],
@@ -596,8 +648,9 @@ export const GEOME_PRODUCTS: Product[] = [
       "/Geome/Spoiler/Spoiler4.jpeg"
     ],
     features: [
-      "Diseño aerodinámico",
-      "Gran presencia visual"
+      "Alerón tipo Performance",
+      "Look moderno en GEOME",
+      "Fácil adhesión"
     ]
   },
   {
@@ -607,16 +660,17 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 0,
     isSpecialShipping: true,
     isComingSoon: false,
-    description: "Convierte varias partes y accesorios en terminación aspecto 'Fibra de Carbono Real' - (Por cotización)",
+    description: "Piezas o cobertores en polímero estilo fibra de carbono para puertas, espejos e interior frontal. Requiere Cotización e importación individual ya que hay muchos estilos.",
     colors: [
-      { name: "Estándar", hex: "#000000", available: true, imageUrl: "/Geome/Modificacion por partes/Modificaciones partes.jpeg" }
+      { name: "Carbon Fiber", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Modificacion por partes/Modificaciones partes.jpeg" }
     ],
     images: [
       "/Geome/Modificacion por partes/Modificaciones partes.jpeg"
     ],
     features: [
-      "Calce a medida GEOME",
-      "Look moderno y vanguardista"
+      "Textura ultrarrealista ABS",
+      "Look deportivo y llamativo absoluto",
+      "Múltiples opciones internas"
     ]
   }
 ];
