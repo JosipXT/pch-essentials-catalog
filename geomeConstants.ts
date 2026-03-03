@@ -1,6 +1,6 @@
 import { Product } from './types';
 
-export const geomeProducts: Product[] = [
+export const GEOME_PRODUCTS: Product[] = [
   {
     id: "geome-01",
     name: "Cubre Maletero Retráctil",
