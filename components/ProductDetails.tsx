@@ -42,9 +42,24 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, isOpen, onClos
   const handleImageChange = (img: string) => {
     setCurrentImage(img);
     // Find if this image belongs to a specific color
-    const colorIndex = product.colors.findIndex(c => c.imageUrl === img);
-    if (colorIndex !== -1) {
-      setSelectedColorIndex(colorIndex);
+    const exactColorIndex = product.colors.findIndex(c => c.imageUrl === img);
+    if (exactColorIndex !== -1) {
+      setSelectedColorIndex(exactColorIndex);
+    } else {
+      // Try to match based on substrings in the image URL to update the color circle accurately
+      const imgLower = img.toLowerCase();
+      const matchIndex = product.colors.findIndex(c => {
+        const cName = c.name.toLowerCase();
+        if ((cName.includes('rosa') || cName.includes('rosado')) && imgLower.includes('rosa')) return true;
+        if (cName.includes('negro') && imgLower.includes('negr')) return true;
+        if (cName.includes('blanco') && imgLower.includes('blanc')) return true;
+        if (cName.includes('crema') && imgLower.includes('crema')) return true;
+        if (cName.includes('azul') && imgLower.includes('azul')) return true;
+        return imgLower.includes(cName);
+      });
+      if (matchIndex !== -1) {
+        setSelectedColorIndex(matchIndex);
+      }
     }
   };
 

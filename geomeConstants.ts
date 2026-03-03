@@ -696,11 +696,11 @@ export const GEOME_PRODUCTS: Product[] = [
     isComingSoon: false,
     description: "Tinte inteligente de polarizado para todo el complejo y enorme ventanal e incluso el increíble techo panorámico del vehícula. Reducción inmensa de los rayos UV y del índice calorífico interno.",
     colors: [
-      { name: "Transparencia Selectiva", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Lámina solar/Lámina solar2.jpeg" }
+      { name: "Transparencia Selectiva", hex: "#2f2f2f", available: true, imageUrl: "/Geome/Lámina solar/Lámina solar2.jpeg" }
     ],
     images: [
-      "/Geome/Lámina solar/Lámina solar2.jpeg",
-      "/Geome/Lámina solar/Lámina solar1.jpeg"
+      "/Geome/Lámina solar/Lámina solar2.jpeg",
+      "/Geome/Lámina solar/Lámina solar1.jpeg"
     ],
     features: [
       "Grado de rechazo de calor altísimo",
