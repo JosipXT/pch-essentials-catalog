@@ -383,17 +383,17 @@ export const MOCK_PRODUCTS: Product[] = [
     id: "16",
     name: "Cubre Maletero Retráctil Ajustable",
     category: "Protección",
-    price: 60000,
+    price: 57500,
     description: "Cubre objetos retráctil diseñado a medida para el Geely EX5. Disponible en tres acabados premium para adaptarse a tu estilo. Elige entre Lona reforzada, Cuero sintético o Estilo Fibra de Carbón. Protege tu equipaje de la vista y de los rayos UV.",
     colors: [
+      { name: "Fibra de Carbón", hex: "#222222", available: true, imageUrl: "https://i.ibb.co/KcL6Hnb1/cubre-maletero-carbon-fiber-leather.jpg", price: 57500 },
       { name: "Lona (Canvas)", hex: "#1a1a1a", available: true, imageUrl: "https://i.ibb.co/tPCmdG7w/cubre-maletero-black-canvas.jpg", price: 60000 },
-      { name: "Cuero (Leather)", hex: "#0d0d0d", available: true, imageUrl: "https://i.ibb.co/jZ1gjf6V/cubre-maletero-black-leather.jpg", price: 60000 },
-      { name: "Fibra de Carbón", hex: "#222222", available: true, imageUrl: "https://i.ibb.co/KcL6Hnb1/cubre-maletero-carbon-fiber-leather.jpg", price: 57500 }
+      { name: "Cuero (Leather)", hex: "#0d0d0d", available: true, imageUrl: "https://i.ibb.co/jZ1gjf6V/cubre-maletero-black-leather.jpg", price: 62500 }
     ],
     images: [
+      "https://i.ibb.co/KcL6Hnb1/cubre-maletero-carbon-fiber-leather.jpg",
       "https://i.ibb.co/tPCmdG7w/cubre-maletero-black-canvas.jpg",
-      "https://i.ibb.co/jZ1gjf6V/cubre-maletero-black-leather.jpg",
-      "https://i.ibb.co/KcL6Hnb1/cubre-maletero-carbon-fiber-leather.jpg"
+      "https://i.ibb.co/jZ1gjf6V/cubre-maletero-black-leather.jpg"
     ],
     extraImages: [
       "https://i.ibb.co/B28dcXHR/maletero1.jpg",
