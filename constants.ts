@@ -340,7 +340,7 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Adaptador Regleta V2L 16A (Vehicle-to-Load)",
     category: "Electrónica",
     price: 47500,
-    description: "Transforma tu Geely EX5 en una fuente de energía móvil de 16 Amperios con esta regleta V2L. Conéctala al puerto de carga de tu vehículo para disponer de múltiples tomas de corriente AC estándar, permitiéndote alimentar simultáneamente electrodomésticos, laptops, luces o equipos de camping. Imprescindible para un estilo de vida activo y emergencias.",
+    description: "Transforma tu Geely EX5 en una fuente de energía móvil de 16 Amperios con esta regleta V2L con cable de 3 metros. Conéctala al puerto de carga de tu vehículo para disponer de múltiples tomas de corriente AC estándar, permitiéndote alimentar simultáneamente electrodomésticos, laptops, luces o equipos de camping. Imprescindible para un estilo de vida activo y emergencias.",
     colors: [
       { name: "Blanco", hex: "#ffffff", available: true, imageUrl: "https://i.ibb.co/FqCshpmy/regleta1.jpg" }
     ],

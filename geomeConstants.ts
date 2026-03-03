@@ -467,7 +467,7 @@ export const GEOME_PRODUCTS: Product[] = [
     price: 47500,
     isSpecialShipping: false,
     isComingSoon: false,
-    description: "Excelente adaptador V2L para extraer la super energía de tu coche EV a dispositivos eléctricos AC de uso doméstico o exteriores. Incluye un cable extensor de gran longitud y una regleta de enchufes múltiples.",
+    description: "Excelente adaptador V2L para extraer la super energía de tu coche EV a dispositivos eléctricos AC de uso doméstico o exteriores. Incluye un cable extensor de 3 metros de longitud y una regleta de enchufes múltiples.",
     colors: [
       { name: "Negro Carga", hex: "#000000", available: true, imageUrl: "/Geome/V2L/v2l 3m.jpg" }
     ],
